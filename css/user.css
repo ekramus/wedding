@@ -19,6 +19,7 @@ div {
   width: 100%;
   flex-flow: row;
   flex-wrap: wrap;
+  margin: 0 -1rem;
 }
 
 /* For devices larger than 550px */
@@ -32,6 +33,8 @@ div {
   width: 100%;
   display: flex;
   flex-flow: column;
+  margin: 0 1rem;
+  flex-shrink: 1;
 }
 
 .center * {
