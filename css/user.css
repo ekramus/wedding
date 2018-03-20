@@ -41,6 +41,21 @@ div {
   align-self: center;
 }
 
+.slide1 {
+  background-image: url("../img/three_of_us.jpg");
+  background-attachment: fixed;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slide2 {
+  background-image: url("../img/two_of_us.jpg");
+  background-attachment: fixed;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 /* Base Styles
