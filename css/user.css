@@ -39,7 +39,7 @@ div {
   align-self: center;
 }
 
-.title {
+.background_img {
   background-image: url("../img/two_of_us-blur.jpg");
   background-attachment: fixed;
   background-position: top center;
@@ -61,6 +61,27 @@ div {
   width: 90%;
   height: 30vh;
   border: 0;
+}
+
+.gallery {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 90%;
+  height: auto;
+  margin: 1rem;
+}
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+  .gallery img {
+    height: 20rem;
+    width: auto;
+  }
 }
 
 /*
