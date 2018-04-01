@@ -18,7 +18,6 @@ div {
   flex-flow: row;
   flex-wrap: wrap;
 }
-
 /* For devices larger than 550px */
 @media (min-width: 550px) {
   .row {
@@ -49,12 +48,24 @@ div {
 }
 
 .title h1 {
-  font-size: 10rem;
+  font-size: 4rem;
+}
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+  .title h1 {
+    font-size: 8vw;
+   }
 }
 
 .title p {
-  font-size: 3rem;
+  font-size: 1.5rem;
   text-align: center;
+}
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+  .title p {
+    font-size: 3vw;
+   }
 }
 
 .google_map {
